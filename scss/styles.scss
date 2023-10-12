@@ -73,11 +73,13 @@ a {
     }
 }
 .buy {
-    border: 1px;
-    border-radius: 3px;
-    border-top-right-radius: 0;
+   
+    border: 3px solid black:
 }
    
+// .view {
+//     border: 1px solid black;
+// }
 .subm {
     display: flex;
     justify-content: space-between;
@@ -92,9 +94,7 @@ span {
     font-weight: 700;
     font-size: 2rem;
     padding-right: 4rem;
-    padding-top: 3rem;
-    
-    
+    padding-top: 3rem; 
 
 }
 
