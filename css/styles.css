@@ -12,7 +12,6 @@ nav {
 
 section {
   display: flex;
-  border: solid red;
 }
 
 .pics {
@@ -36,8 +35,9 @@ header {
 }
 
 li:hover {
-  color: orange;
+  color: rgb(237, 100, 54);
   text-decoration: underline;
+  font-size: 1.2rem;
 }
 
 .menu {
@@ -45,6 +45,8 @@ li:hover {
   justify-content: space-around;
   list-style-type: none;
   gap: 5rem;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .pic1 {
@@ -64,12 +66,58 @@ a {
   color: black;
 }
 a:hover {
-  color: orange;
+  color: rgb(237, 100, 54);
   text-decoration: underline;
 }
 
-.buybutton {
+.buy {
   border: 1px;
   border-radius: 3px;
   border-top-right-radius: 0;
+}
+
+.subm {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+}
+
+h1 {
+  color: rgb(237, 100, 54);
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: black;
+  font-size: 4.5rem;
+}
+
+.submenu {
+  gap: 3rem;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  height: 200px;
+}
+
+.pics {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 4.5rem;
+  gap: 2rem;
+}
+.pics img {
+  height: 19rem;
+  width: 29rem;
+  border-radius: 3rem;
 }
