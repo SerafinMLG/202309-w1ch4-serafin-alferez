@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+nav {
+    display: flex;
+}
+
+section {
+    display: flex;
+
+
+}
+
+.pics {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 20px;
+    box-shadow: -1px 5px 10px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 5px 10px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 5px 10px -4px rgba(0,0,0,0.75);
+}
+
+
+.list {
+    display: none;
+    list-style-type: none;
+   
+    
+}
+
+li:hover {
+    color: rgb(237,100,54);
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+
+}
+
+.pic1 {
+    background-image: url("./img/01.jpg");
+}
+.pic2 {
+    background-image: url("./img/02.jpg");
+}
+.pic3 {
+    background-image: url("./img/03.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: rgb(237,100,54);
+        text-decoration: underline;
+    }
+}
+.buy {
+   
+    border: 3px solid black:
+}
+   
+// .view {
+//     border: 1px solid black;
+// }
+.subm {
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 4rem;
+    padding-top: 3rem; 
+
+}
+
+
+h1 {
+
+    color: rgb(237,100,54);
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: black;
+    font-size: 4.5rem;
+    
+}
+
+.submenu {
+    // display: flex;
+    // justify-content: space-between;
+    gap: 3rem;
+    padding: 20px;
+    // box-shadow: -1px 5px 10px -4px rgba(0, 0, 0, 0.75);
+    // -webkit-box-shadow: -1px 5px 10px -4px rgba(0, 0, 0, 0.75);
+    // -moz-box-shadow: -1px 5px 10px -4px rgba(0, 0, 0, 0.75);
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 200px;
+}
+
+.pics {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 4.5rem;
+    gap: 2rem;
+    img {
+        height: 19rem;
+        width: 29rem;
+        border-radius: 3rem;
+    }
+}
